@@ -70,6 +70,7 @@ The reduced features set obtained are 'pca_weights_reduced1.npy', 'pca_weights_r
 
 
 **Classification using Majority Voting Classifier using SVM and RF**
+
 SVM and RF are used for classification of pap smear test data for three different resolutions. The classification decision is based on the majority vote of two classifiers. 
 Run the following Python script for the classification report:
 
