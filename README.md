@@ -19,9 +19,7 @@ During the installation process, ensure you check the option to "Add Git to PATH
 Open the Command Prompt and type:
 git –version
 
-4. Run the Python script:
-
-  data_resizing.py
+4. Run the Python script: data_resizing.py
 
   Now the resized data is stored with the folder names “SIPaKMeD_224x224”, “SIPaKMeD_512x512”, and “SIPaKMeD_1024x1024” in the current directory.
 
