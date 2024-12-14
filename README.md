@@ -21,9 +21,9 @@ git –version
 
 4. Run the Python script:
 
-data_resizing.py
+  data_resizing.py
 
-Now the resized data is stored with the folder names “SIPaKMeD_224x224”, “SIPaKMeD_512x512”, and “SIPaKMeD_1024x1024” in the current directory.
+  Now the resized data is stored with the folder names “SIPaKMeD_224x224”, “SIPaKMeD_512x512”, and “SIPaKMeD_1024x1024” in the current directory.
 
 
 **Data division**
@@ -50,7 +50,7 @@ resnet152_features.py
 
 vgg16_features.py
 
-Each algorithm is analyzed for 3 iterations. In iteration 1, models utilized “SIPaKMeD_224x224” data, for iteration 2, they used “SIPaKMeD_224x224 and SIPaKMeD_512x512” data and lastly in iteration 3 performance is measured on “SIPaKMeD_224x224, SIPaKMeD_512x512, and SIPaKMeD_1024x1024” data. The weight files from the three iterations of each models are stored as ‘resnet152_iteration1.h5’, ‘resnet152.h5’, and ‘resnet152.h5’ for VGG16; and ‘vgg_iteration1.h5’, ‘vgg_iteration2.h5’, and ‘vgg_iteration3.h5’ for VGG16.
+Each algorithm is analyzed for 3 iterations. In iteration 1, models utilized “SIPaKMeD_224x224” data, for iteration 2, they used “SIPaKMeD_224x224 and SIPaKMeD_512x512” data and lastly in iteration 3 performance is measured on “SIPaKMeD_224x224, SIPaKMeD_512x512, and SIPaKMeD_1024x1024” data. The weight files from the three iterations of each models are stored as ‘resnet152_iteration1.h5’, ‘resnet152_iteration2.h5’, and ‘resnet152_iteration3.h5’ for VGG16; and ‘vgg_iteration1.h5’, ‘vgg_iteration2.h5’, and ‘vgg_iteration3.h5’ for VGG16.
 
 
 **Feature Concatenation**
